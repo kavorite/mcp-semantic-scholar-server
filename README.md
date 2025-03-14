@@ -22,14 +22,11 @@ Run `fastmcp install path/to/semantic-scholar-plugin.py` to install to claude or
 
 ```json
 "semantic-scholar": {
-      "command": "uv",
+      "command": "uvx",
       "args": [
-        "run",
-        "--with",
-        "fastmcp",
-        "fastmcp",
-        "run",
-        "\path\to\semantic-scholar-plugin.py"
+        "--from",
+        "git+https://github.com/kavorite/mcp-semantic-scholar-server@feat/uvx",
+        "serve"
       ]
     }
 ```
