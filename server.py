@@ -126,6 +126,9 @@ async def search_papers_via_semanticscholar(
 
     return markdown
 
-if __name__ == "__main__":
+def main()
     logger.info("Starting Semantic Scholar MCP server...")
     mcp.run()
+
+if __name__ == "__main__":
+    main()
