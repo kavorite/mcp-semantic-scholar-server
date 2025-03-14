@@ -126,7 +126,7 @@ async def search_papers_via_semanticscholar(
 
     return markdown
 
-def main()
+def main():
     logger.info("Starting Semantic Scholar MCP server...")
     mcp.run()
 
