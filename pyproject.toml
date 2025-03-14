@@ -5,12 +5,13 @@ description = "MCP server for Semantic Scholar to search for papers"
 readme = "README.md"
 requires-python = ">=3.10"
 
-[project.scripts]
-serve = "server:main"
-
 dependencies = [
     "aiohttp>=3.11.13",
     "fastmcp>=0.4.1",
     "pydantic>=2.10.6",
     "uvicorn>=0.34.0",
 ]
+
+[project.scripts]
+serve = "server:main"
+
